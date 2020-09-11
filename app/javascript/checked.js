@@ -1,6 +1,7 @@
 function check() {
   const posts = document.querySelectorAll(".post");
   posts.forEach(function (post){
+    // console.log(post.getAttribute("data-load"))
     if (post.getAttribute("data-load") != null){
       return null;
     }
